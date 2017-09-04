@@ -8,5 +8,6 @@
 
 import Foundation
 
-print("Hello, World!")
-
+for i in 1..<8 {
+    print("\nHello, World!")
+}
