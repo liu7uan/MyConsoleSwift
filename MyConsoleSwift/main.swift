@@ -8,7 +8,10 @@
 
 import Foundation
 
-for i in 1..<8 {
-    print("\nHello, World!")
+var tag = true
+if (tag){
+    print("tag:\(tag)")
+}else{
+    print("tag:\(tag)")
 }
-
+print(tag ? "tag:\(tag)" : "tag:\(tag)")
